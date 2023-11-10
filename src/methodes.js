@@ -5,12 +5,12 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
-const apiUrl = "http://localhost/alfalah_pharma_back/public";
-// const apiUrl = "http://45.63.94.164/alfalah_pharma_back";
+// const apiUrl = "http://localhost/alfalah_pharma_back/public";
+const apiUrl = "http://45.63.94.164/alfalah_pharma_back_test";
 // const apiUrl = "http://144.202.100.33";
 const baseUrl = ""
 const webUrl = ""
-const pass=localStorage.getItem("user_alfalah_data") 
+const pass=localStorage.getItem("user_alfalah_data")
 
 export const getBaseUrl = () => { 
 	return baseUrl;
