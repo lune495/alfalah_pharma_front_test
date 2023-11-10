@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap");
+.b2c-login2 {
+  background-color: rgb(8, 0, 0);
+  /* background-image:url("assets/img/medecin2-opacity.png") */
+}
+.b2c-login {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #292828;
+  font-family: "Roboto";
+  overflow: auto;
+}
+
+.myForm {
+  width: 500px;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  border-radius: 5px;
+  transform: translateX(-50%);
+}
+
+.card {
+  padding: 5px;
+  height: max-content;
+  overflow: auto;
+  margin-bottom: 30px;
+}
+
+.card-title {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.b2c-login label {
+  font-weight: normal;
+}
+
+.b2c-login input {
+  border: 1px black solid;
+}
+
+.b2c-login select {
+  height: 50px;
+  font-size: large;
+  border: 1px black solid;
+}
+
+@media (max-width: 700px) {
+  .myForm {
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    left: 0;
+    bottom: 0;
+    transform: none;
+  }
+
+  .card {
+    height: 100%;
+    overflow: auto;
+    margin: 0;
+  }
+}

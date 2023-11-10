@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500&family=Poppins:wght@200;300;400&display=swap');
+
+
+
+.n-produit{
+    position: relative;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* width: 200px; */
+    
+    min-width: max-content;
+    border: 1px solid #dddd;
+    height: max-content;
+    padding: 20px;
+    flex-direction: column-reverse;
+    align-items: center;
+    border-radius:7px;
+    background:#ffff;
+    font-family: 'Mulish', sans-serif;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.116);
+}
+.b2c-dashboard-padd-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.b2c-dashboard-padd{
+    width: 850px;
+}
+
+
+
+
+@media screen and (max-width:935px){
+    .b2c-dashboard-padd{
+        width: 850px;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+
+}
+
+@media screen and (max-width:1141px){
+    .b2c-dashboard-padd{
+        width: 100%;
+        position: relative;
+    }
+    .start{
+        justify-self: start;
+    }
+    .end{
+        justify-self: end;
+    }
+    .b2c-review{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr)
+    }
+    .dashboard-statbox{
+        margin: 5px;
+    }
+    .resumeAndRatings{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:454px){
+    .b2c-review{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr)
+    }
+    .dashboard-statbox{
+        margin: 5px 0;
+    }
+    .start{
+       justify-self: center;
+    }
+    .end{
+        justify-self: center;
+    }
+    .b2c-statistic-header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+    }   
+    .b2c-statistic-filter {
+       margin-top: 15px;
+    }
+}
+@media screen and (max-width:384px){
+    .info-ligne-type1{
+        width: max-content;
+        flex-direction: column;
+        align-items:center
+    }
+    .info-ligne-type{
+        width: max-content;
+        flex-direction: column;
+        align-items:center;
+        width:100%
+    }
+}
